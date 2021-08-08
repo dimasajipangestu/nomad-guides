@@ -75,4 +75,5 @@ variable "token_for_nomad" {
 
 variable "vault_url" {
   description = "URL of your Vault server including port"
+  default = "http://ec2-18-233-8-192.compute-1.amazonaws.com:8200"
 }
